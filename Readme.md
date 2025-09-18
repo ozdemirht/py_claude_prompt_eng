@@ -2,6 +2,14 @@
 Introduction
 ------------
 
+Collects prompt engineering practices with Claude LLM. 
+
+One idea is to prompt refinement iterations in an automated way. T
+
+Another idea is to state prompt refinement as an optimization problem 
+hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt. 
+
+
 References
 ----------
 1. [An LLM-Based Genetic Algorithm for Prompt Engineering](https://dl.acm.org/doi/10.1145/3712255.3726633)
