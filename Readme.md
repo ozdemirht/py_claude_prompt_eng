@@ -6,10 +6,10 @@ Collects prompt engineering practices with Claude LLM.
 
 ![Prompt-Optimization-HLD](./docs/HLD-0-Prompt_Optimization_Flow.png)
 
-One idea is to prompt refinement iterations in an automated way. T
+One idea is to automate prompt refinement iterations programmatically.
 
 Another idea is to state prompt refinement as an optimization problem 
-hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt. 
+hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt.
 
 
 References
