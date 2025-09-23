@@ -61,7 +61,7 @@ Anatomy of a Prompt
 
 A hypothetical prompt could be
 
-<pre><code>
+````
 
 <persona>..</persona>. <instruction>..</instruction>. <output_specification>..</output_specification>
 
@@ -71,7 +71,7 @@ A hypothetical prompt could be
 <samples>
 </samples>
 
-</code></pre>
+````
 
 
 
