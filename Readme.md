@@ -61,14 +61,18 @@ Anatomy of a Prompt
 
 A hypothetical prompt could be
 
-'''bash
-<persona>. <instruction>. <output_specification>
+<pre><code>
+
+<persona>..</persona>. <instruction>..</instruction>. <output_specification>..</output_specification>
 
 <user_input>
+</user_input>
 
 <samples>
 </samples>
-'''
+
+</code></pre>
+
 
 
 References
