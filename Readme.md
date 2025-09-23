@@ -59,7 +59,7 @@ Anatomy of a Prompt
 1. Persona (system prompt)
 1. Output specification
 
-A hypothetical prompt could be
+A hypothetical user prompt structure could be represented as
 
 ````
 <persona>..</persona>. 
@@ -68,6 +68,9 @@ A hypothetical prompt could be
 
 <user_input>
 </user_input>
+
+<guidelines>
+</guideines>
 
 <samples>
  <sample>
@@ -80,7 +83,14 @@ A hypothetical prompt could be
 </samples>
 ````
 
+An optimization algorithm will search a space defined by the following dimensions.
+- model
+- temperature
+- persona
+- instruction
+- guidelines
 
+because variations in output specification is low and task specific while user provides the user inputs to the prompt under test.
 
 References
 ----------
@@ -98,3 +108,7 @@ References
 1. [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 1. [Building the Entire RAG Ecosystem and Optimizing Every Component](https://levelup.gitconnected.com/building-the-entire-rag-ecosystem-and-optimizing-every-component-8f23349b96a4)
 1. [Understanding the Anatomies of LLM Prompts](https://www.codesmith.io/blog/mastering-llm-prompts)
+1. [Anthropic's Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)
+1. [Anthropic's Complex Prompts from Scratch](https://github.com/anthropics/prompt-eng-interactive-tutorial/blob/master/Anthropic%201P/09_Complex_Prompts_from_Scratch.ipynb)
+1. [Prompt Engineering Overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
+1. [Prompt Engineering](https://github.com/anthropics/courses/blob/master/real_world_prompting/03_prompt_engineering.ipynb)
