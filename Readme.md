@@ -21,12 +21,14 @@ A suitable framework needs to decompose all parts of prompt (system, assistant, 
 so that a search algorithm could be developed. 
 
 Utilized code in 
-<a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api/" target="_blank">Anthrophic Building with the Claude API</a> course. 
+<a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api/" target="_blank">Anthrophic Building with the Claude API</a> course [1]. 
 Refactored the code by using role/task based class representation.
 
-- **TestSuiteGenerator**: Generates test prompts with different inputs for the **same prompt**
-- **DietitianForAthletes**: Class DietitianForAthletes represents a Dietitian specialized on preparing meal plan to meet nutritional needs of athletes.
-  Its system prompt is configured accordingly.
+- **TestSuiteGenerator**: Generates test prompts with different inputs for the **same prompt** in DietitianForAthletes. 
+  The purpose of these tests to make sure completions of **DietitianForAthletes** meets the expectations of LLM based service 
+  because to be production quality, it needs to be robust to any user input. 
+- **DietitianForAthletes**: represents a Dietitian specialized on preparing meal plan to meet nutritional needs of athletes.
+  Its system prompt is configured accordingly and its temperature is set to 0.5.
 - **PromptOutputGrader**: Execute test prompts, and grade completions. 
 - **EvaluationWriter**: Writes the evaluation results into HTML file so that we can compare. 
 - **AntrophicClient**: Encapsulates Anthrophic API client. Intent is able to test with different LLM (Claude, OpenAI, Gemini,...) and model combinations.
