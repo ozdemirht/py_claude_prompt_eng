@@ -6,8 +6,13 @@ Collects prompt engineering practices with Claude LLM.
 
 ![Claude_Conversation.ipynp](src/Claude_Conversation.ipynb) introduce API via examples.
 - AntrophicPrompt: Accumulate messages and provides an abstraction for a conversation session. 
-- Example on how "system prompt" influences the LLM completion. 
-- Example on how "temperature" influences the LLM completion.
+- How context influences generated completion
+- How **system prompt** influences generated completion
+- How **assistant prompt** influences generated completion
+- How **temperature** (low,high) influences generated completion
+- How generated completions consumed via **streaming** interface
+- How **stop_sequences** stops generation in addition to **max_tokens**
+
 
 Prompt Optimization
 -------------------
