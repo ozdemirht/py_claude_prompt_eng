@@ -32,7 +32,8 @@ Refactored the code by using role based class representation.
 <li>AntrophicPrompt: This should accumulate messages and should be an abstraction for a prompt eventually with a better name. 
 </ul>
 
-There is no concern with separation of duties because TestSuiteGenerator and PromptOutputGrader uses the same Claude model ().
+There is no concern with **separation of duties** because TestSuiteGenerator and 
+PromptOutputGrader uses the same Claude model (claude-3-5-haiku-latest).
 
 
 Another approach is to state prompt refinement as an optimization problem 
