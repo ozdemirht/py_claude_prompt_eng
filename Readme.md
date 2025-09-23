@@ -39,7 +39,7 @@ Another approach is to state prompt refinement as an optimization problem
 hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt.
 Evolutionary algorithm approach[2] is applicable for emulating iterative evolution of prompt population to find a set of high performing prompts. 
 Clear definition of prompt representation will help to define mutation and cross-over operations. 
-One approach is we can utilize LLM to mutate a prompt or cross-over two prompts to obtain new offspring prompts. 
+One approach is that we can utilize LLM to mutate a prompt or cross-over two prompts to obtain new offspring prompts. 
 Then, EA applies selection to build the next generation of prompts. 
 
 References
