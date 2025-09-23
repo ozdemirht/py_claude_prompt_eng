@@ -62,15 +62,22 @@ Anatomy of a Prompt
 A hypothetical prompt could be
 
 ````
-
-<persona>..</persona>. <instruction>..</instruction>. <output_specification>..</output_specification>
+<persona>..</persona>. 
+<instruction>..</instruction>. 
+<output_specification>..</output_specification>
 
 <user_input>
 </user_input>
 
 <samples>
-</samples>
+ <sample>
+  <input>
+  </input>
+  <ideal_output>
+  </ideal_output>
+ </sample>
 
+</samples>
 ````
 
 
