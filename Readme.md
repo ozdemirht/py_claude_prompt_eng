@@ -4,14 +4,15 @@ Introduction
 
 Collects prompt engineering practices with Claude LLM. 
 
-![Claude_Optimization.ipynp](src/Prompt_Optimization.ipynb) walks tough an example. 
+![Claude_Optimization.ipynp](src/Prompt_Optimization.ipynb) introduce API via examples.
+- AntrophicPrompt: Accumulate messages and provides an abstraction for a conversation session. 
 
 
 ![Prompt-Optimization-HLD](./docs/HLD-0-Prompt_Optimization_Flow.png)
 
 One approach is to automate prompt refinement iterations programmatically.
 
-![Prompt_Optimization.ipynp](src/Prompt_Optimization.ipynb) walks tough an example. 
+![Prompt_Optimization.ipynp](src/Prompt_Optimization.ipynb) walks through an example. 
 There are many moving parts in a prompt. 
 A suitable framework needs to decompose all parts of prompt (system, assistant, output requirements, few samples, etc.)
 so that a search algorithm could be developed. 
