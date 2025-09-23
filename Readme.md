@@ -22,19 +22,18 @@ so that a search algorithm could be developed.
 
 Utilized code in 
 <a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api/" target="_blank">Anthrophic Building with the Claude API</a> course. 
-Refactored the code by using role based class representation.
+Refactored the code by using role/task based class representation.
 
-<ul>
-<li>TestSuiteGenerator: Generates test prompts with different inputs for the **same prompt**  
-<li>PromptOutputGrader: Execute test prompts, and grade completions. 
-<li>EvaluationWriter: Writes the evaluation results into HTML file so that we can compare. 
-<li>AntrophicClient: Encapsulates Anthrophic API client. Intent is able to test with different LLM (Claude, OpenAI, Gemini,...) and model combinations.
-<li>AntrophicPrompt: This should accumulate messages and should be an abstraction for a prompt eventually with a better name. 
-</ul>
+- **TestSuiteGenerator**: Generates test prompts with different inputs for the **same prompt**
+- **DietitianForAthletes**: Class DietitianForAthletes represents a Dietitian specialized on preparing meal plan to meet nutritional needs of athletes.
+  Its system prompt is configured accordingly.
+- **PromptOutputGrader**: Execute test prompts, and grade completions. 
+- **EvaluationWriter**: Writes the evaluation results into HTML file so that we can compare. 
+- **AntrophicClient**: Encapsulates Anthrophic API client. Intent is able to test with different LLM (Claude, OpenAI, Gemini,...) and model combinations.
+- **AntrophicPrompt**: This should accumulate messages and should be an abstraction for a prompt eventually with a better name. 
 
 There is no concern with **separation of duties** because TestSuiteGenerator and 
 PromptOutputGrader uses the same Claude model (claude-3-5-haiku-latest).
-
 
 Another approach is to state prompt refinement as an optimization problem 
 hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt.
