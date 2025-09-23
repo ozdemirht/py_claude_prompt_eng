@@ -13,7 +13,8 @@ There are many moving parts in a prompt.
 A suitable framework needs to decompose all parts of prompt (system, assistant, output requirements, few samples, etc.)
 so that a search algorithm could be developed. 
 
-Utilized code in <a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api/" target="_blank">Anthrophic Building with the Claude API</a> course. 
+Utilized code in 
+<a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api/" target="_blank">Anthrophic Building with the Claude API</a> course. 
 Refactored the code by using role based class representation.
 
 <ul>
@@ -29,13 +30,14 @@ There is no concern with separation of duties because TestSuiteGenerator and Pro
 
 Another approach is to state prompt refinement as an optimization problem 
 hence one can put **prompt refinement** in an optimization framework to search for an optimal prompt.
-Evolutionary algorithm approach[1] is applicable for emulating iterative evolution of prompt population to find a set of high performing prompts. 
+Evolutionary algorithm approach[2] is applicable for emulating iterative evolution of prompt population to find a set of high performing prompts. 
 Clear definition of prompt representation will help to define mutation and cross-over operations. 
 One approach is we can utilize LLM to mutate a prompt or cross-over two prompts to obtain new offspring prompts. 
 Then, EA applies selection to build the next generation of prompts. 
 
 References
 ----------
+1. [Anthrophic Building with the Claude API course](https://anthropic.skilljar.com/claude-with-the-anthropic-api/)
 1. [An LLM-Based Genetic Algorithm for Prompt Engineering](https://dl.acm.org/doi/10.1145/3712255.3726633)
 1. [EvoPrompt - A Game Changer for Optimizing AI Interactions](https://news.promptengineering.org/evoprompt-a-game-changer-for-optimizing-ai-interactions.html)
 1. [Evolving Prompts with Genetic Algorithms: A Novel Approach to Prompt Engineering](https://medium.com/@eugenesh4work/evolving-prompts-with-genetic-algorithms-a-novel-approach-to-prompt-engineering-a2e1e0f53b9a)
