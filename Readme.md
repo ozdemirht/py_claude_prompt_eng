@@ -6,7 +6,8 @@ Collects prompt engineering practices with Claude LLM.
 
 ![Claude_Conversation.ipynp](src/Claude_Conversation.ipynb) introduce API via examples.
 - AntrophicPrompt: Accumulate messages and provides an abstraction for a conversation session. 
-
+- Example on how "system prompt" influences the LLM completion. 
+- Example on how "temperature" influences the LLM completion.
 
 Prompt Optimization
 -------------------
