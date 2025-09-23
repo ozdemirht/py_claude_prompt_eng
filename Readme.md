@@ -60,7 +60,8 @@ Anatomy of a Prompt
 1. Output specification
 
 A hypothetical prompt could be
-'''
+
+'''bash
 <persona>. <instruction>. <output_specification>
 
 <user_input>
