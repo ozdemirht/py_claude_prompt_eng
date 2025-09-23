@@ -49,6 +49,27 @@ Clear definition of prompt representation will help to define mutation and cross
 One approach is that we can utilize LLM to mutate a prompt or cross-over two prompts to obtain new offspring prompts. 
 Then, EA applies selection to build the next generation of prompts. 
 
+Anatomy of a Prompt
+----------
+[14] summarized the components of a user prompt
+1. Instruction (user prompt; what do we want LLM to generate)
+1. User input (prompt_inputs dictionary in )
+1. Context 
+1. Sample (one/few samples of input-output pairs; 1,2,6)
+1. Persona (system prompt)
+1. Output specification
+
+A hypothetical prompt could be
+'''
+<persona>. <instruction>. <output_specification>
+
+<user_input>
+
+<samples>
+</samples>
+'''
+
+
 References
 ----------
 1. [Anthrophic Building with the Claude API course](https://anthropic.skilljar.com/claude-with-the-anthropic-api/)
@@ -64,3 +85,4 @@ References
 1. HOPR (Hint Optimization and Prompt Refinement)
 1. [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 1. [Building the Entire RAG Ecosystem and Optimizing Every Component](https://levelup.gitconnected.com/building-the-entire-rag-ecosystem-and-optimizing-every-component-8f23349b96a4)
+1. [Understanding the Anatomies of LLM Prompts](https://www.codesmith.io/blog/mastering-llm-prompts)
