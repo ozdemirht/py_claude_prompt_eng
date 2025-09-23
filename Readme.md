@@ -92,6 +92,10 @@ An optimization algorithm will search a space defined by the following dimension
 
 because variations in output specification is low and task specific while user provides the user inputs to the prompt under test.
 
+- mutation: rewrite the content in persona/instruction/guidelines with temperature (simulated annealing)
+- crossover: apply crossover at sub-structure boundaries. 
+
+
 References
 ----------
 1. [Anthrophic Building with the Claude API course](https://anthropic.skilljar.com/claude-with-the-anthropic-api/)
