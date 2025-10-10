@@ -116,3 +116,5 @@ References
 1. [Anthropic's Complex Prompts from Scratch](https://github.com/anthropics/prompt-eng-interactive-tutorial/blob/master/Anthropic%201P/09_Complex_Prompts_from_Scratch.ipynb)
 1. [Prompt Engineering Overview](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
 1. [Prompt Engineering](https://github.com/anthropics/courses/blob/master/real_world_prompting/03_prompt_engineering.ipynb)
+1. [DSPy: Build and Optimize Agentic Apps](https://learn.deeplearning.ai/courses/dspy-build-optimize-agentic-apps/lesson/nj890/introduction)
+1. [Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs](https://arxiv.org/abs/2406.11695)
