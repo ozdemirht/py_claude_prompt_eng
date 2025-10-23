@@ -50,6 +50,9 @@ One approach is that we can utilize LLM to mutate a prompt or cross-over two pro
 Then, EA applies selection to build the next generation of prompts. 
 
 PromptOutputGrader should evolve as the quality of prompts increases. 
+Graders should also incorporate context_window to reflect cost attribute of prompt. 
+Pareto-front will be a useful approach for comparison. 
+
 
 Anatomy of a Prompt
 ----------
