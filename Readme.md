@@ -49,6 +49,8 @@ Clear definition of prompt representation will help to define mutation and cross
 One approach is that we can utilize LLM to mutate a prompt or cross-over two prompts to obtain new offspring prompts. 
 Then, EA applies selection to build the next generation of prompts. 
 
+PromptOutputGrader should evolve as the quality of prompts increases. 
+
 Anatomy of a Prompt
 ----------
 [14] summarized the components of a user prompt
@@ -133,3 +135,4 @@ References
 1. [HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification](https://arxiv.org/abs/2011.03088)
 1. [PAPILLON: Privacy Preservation from Internet-based and Local Language Model Ensembles](https://arxiv.org/abs/2410.17127)
 1. [PUPA-PAPILLION Tutorial](https://colab.research.google.com/github/Columbia-NLP-Lab/PAPILLON/blob/main/papillon_tutorial.ipynb)
+1. [Prompt Optimization](https://orq.ai/blog/prompt-optimization)
