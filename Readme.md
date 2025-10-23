@@ -95,6 +95,15 @@ because variations in output specification is low and task specific while user p
 - mutation: rewrite the content in persona/instruction/guidelines with temperature (simulated annealing)
 - crossover: apply crossover at sub-structure boundaries. 
 
+Benchmarks
+----------
+
+[HotpotQA](https://hotpotqa.github.io/)(questions that require reasoning over multiple paragraphs), 
+[IFBench](https://github.com/allenai/IFBench) (following instructions), 
+[HoVer](https://hover-nlp.github.io/) (verifying facts), 
+[PUPA](https://github.com/Columbia-NLP-Lab/PAPILLON) (which gauges balance between helpfulness and unwanted sharing of personal information)
+
+
 
 References
 ----------
@@ -118,3 +127,9 @@ References
 1. [Prompt Engineering](https://github.com/anthropics/courses/blob/master/real_world_prompting/03_prompt_engineering.ipynb)
 1. [DSPy: Build and Optimize Agentic Apps](https://learn.deeplearning.ai/courses/dspy-build-optimize-agentic-apps/lesson/nj890/introduction)
 1. [Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs](https://arxiv.org/abs/2406.11695)
+1. [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
+1. [HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering](https://arxiv.org/abs/1809.09600)
+1. [Generalizing Verifiable Instruction Following](https://arxiv.org/abs/2507.02833)
+1. [HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification](https://arxiv.org/abs/2011.03088)
+1. [PAPILLON: Privacy Preservation from Internet-based and Local Language Model Ensembles](https://arxiv.org/abs/2410.17127)
+1. [PUPA-PAPILLION Tutorial](https://colab.research.google.com/github/Columbia-NLP-Lab/PAPILLON/blob/main/papillon_tutorial.ipynb)
