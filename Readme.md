@@ -103,10 +103,11 @@ because variations in output specification is low and task specific while user p
 Benchmarks
 ----------
 
-[HotpotQA](https://hotpotqa.github.io/)(questions that require reasoning over multiple paragraphs), 
-[IFBench](https://github.com/allenai/IFBench) (following instructions), 
-[HoVer](https://hover-nlp.github.io/) (verifying facts), 
-[PUPA](https://github.com/Columbia-NLP-Lab/PAPILLON) (which gauges balance between helpfulness and unwanted sharing of personal information)
+Consider using the following benchmarks for evaluation.  
+- [HotpotQA](https://hotpotqa.github.io/)(questions that require reasoning over multiple paragraphs), 
+- [IFBench](https://github.com/allenai/IFBench) (following instructions), 
+- [HoVer](https://hover-nlp.github.io/) (verifying facts), 
+- [PUPA](https://github.com/Columbia-NLP-Lab/PAPILLON) (which gauges balance between helpfulness and unwanted sharing of personal information)
 
 
 
