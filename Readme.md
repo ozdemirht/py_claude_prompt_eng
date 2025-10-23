@@ -141,3 +141,4 @@ References
 1. [PUPA-PAPILLION Tutorial](https://colab.research.google.com/github/Columbia-NLP-Lab/PAPILLON/blob/main/papillon_tutorial.ipynb)
 1. [Prompt Optimization](https://orq.ai/blog/prompt-optimization)
 1. [A Survey of Automatic Prompt Optimization with Instruction-focused Heuristic-based Search Algorithm](https://arxiv.org/pdf/2502.18746)
+1. [Exploring Prompt Optimization](https://blog.langchain.com/exploring-prompt-optimization/)
