@@ -123,6 +123,7 @@ References
 1. [GAAPO: Genetic Algorithmic Applied to Prompt Optimization](https://arxiv.org/abs/2504.07157)
 1. [DSPy](https://arxiv.org/abs/2310.03714) 
 1. [DSPy Implementation](https://github.com/stanfordnlp/dspy)
+2. [MIPROv2](https://dspy.ai/api/optimizers/MIPROv2/)
 1. [GAAPO: Genetic Algorithmic Applied to Prompt Optimization](https://arxiv.org/abs/2504.07157) HOPR (Hint Optimization and Prompt Refinement)
 1. [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 1. [Building the Entire RAG Ecosystem and Optimizing Every Component](https://levelup.gitconnected.com/building-the-entire-rag-ecosystem-and-optimizing-every-component-8f23349b96a4)
