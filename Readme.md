@@ -51,7 +51,7 @@ Then, EA applies selection to build the next generation of prompts.
 
 PromptOutputGrader should evolve as the quality of prompts increases. 
 Graders should also incorporate context_window to reflect cost attribute of prompt. 
-Pareto-front will be a useful approach for comparison. 
+[Pareto front](https://web.stanford.edu/group/sisl/k12/optimization/MO-unit5-pdfs/5.8Pareto.pdf) will be a useful approach for comparison. 
 
 
 Anatomy of a Prompt
